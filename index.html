@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero-section">
+        <nav>
+            <div class="logo">Travel Blog</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#travel-posts" class="nav-link">Destinations</a></li>
+                <li><a href="#travel-tips">Travel Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-bg"></div> <!-- Background image container -->
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hello, it's me</h1>
+                <h2>Your Travel Companion</h2>
+                <p>Join me on a journey around the world, discovering new places, cultures, and adventures.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn primary-btn">Explore Destinations</a>
+                    <a href="#" class="btn secondary-btn">See My Blog</a>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my travel blog! I'm Somya Thakur, a passionate traveler and storyteller.
+                I've been exploring the world, one destination at a time, and sharing my experiences 
+                with fellow travel enthusiasts. Here, you'll find tips, guides, and stories from my adventures.
+                Whether you're planning your next trip or just looking for inspiration, I hope my blog
+                provides you with the information and motivation you need.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <main id="travel-posts">
+        <!-- Travel posts will be injected here by JavaScript -->
+    </main>
+
+
+    <!-- Travel Tips Section -->
+<section id="travel-tips">
+    <div class="container">
+        <h2>Travel Tips</h2>
+        <div class="tips">
+            <div class="tip">
+                <img src="image/images (1).jpg" alt="">
+                <h3>Pack Light</h3>
+                <p>Keep your luggage light to make your travels easier and more comfortable. Only pack the essentials.</p>
+            </div>
+            <div class="tip">
+                <img src="image/images (2).jpg" alt="">
+                <h3>Stay Hydrated</h3>
+                <p>Drink plenty of water, especially when traveling to warmer climates or during long flights.</p>
+            </div>
+            <div class="tip">
+                <img src="image/images (3).jpg" alt="">
+                <h3>Learn Basic Local Phrases</h3>
+                <p>Learning a few key phrases in the local language can go a long way in making your travel experience smoother.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact section-->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Travel Blog. All rights reserved.</p>
+            <ul class="socials">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

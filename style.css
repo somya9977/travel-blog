@@ -1,0 +1,366 @@
+/* Global Styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header.hero-section {
+    position: relative;
+    color: #333;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('image/ready-summer-vacation-travel-background-d-rendering-114574299.webp'); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px); 
+    z-index: -1;
+}
+
+/* Hero Section Styles */
+header.hero-section {
+    position: relative;
+    color: #333;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    overflow: hidden; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    position: absolute;
+    width: 100%; 
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #007bff;
+}
+
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('image/ready-summer-vacation-travel-background-d-rendering-114574299.webp'); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px); 
+    z-index: -1; 
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.hero-text {
+    max-width: 80%; 
+    margin: 0 auto;
+}
+
+.hero-text h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-buttons .primary-btn {
+    background-color: #007bff;
+}
+
+.hero-buttons .primary-btn:hover {
+    background-color: #0056b3;
+}
+
+.hero-buttons .secondary-btn {
+    background-color: #28a745;
+}
+
+.hero-buttons .secondary-btn:hover {
+    background-color: #1e7e34;
+}
+
+/* About Section Styles */
+.about-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/*travel tips start*/
+
+#travel-tips {
+    padding: 60px 20px;
+    background: #ffffff;
+    
+}
+
+
+
+#travel-tips h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#travel-tips .tips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#travel-tips .tip {
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+#travel-tips .tip:hover{
+    transform: translateY(-10px);
+}
+
+#travel-tips .tip h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#travel-tips .tip p {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#contact .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #ff4500;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials li a {
+    color: #fff;
+    text-decoration: none;
+}
