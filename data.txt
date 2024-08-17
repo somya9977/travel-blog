@@ -1,0 +1,33 @@
+this is the json data for website
+{
+    "destinations": [
+      {
+        "id": 1,
+        "name": "Santorini, Greece",
+        "date": "2024-06-15",
+        "description": "Santorini is one of the most picturesque islands in Greece, known for its stunning sunsets, whitewashed buildings, and crystal-clear waters.The volcanic island is home to of the world's most unique beaches. The tourists' spot is shrouded with volcanic rocks and sand that give it a distinctive appearance. So don't be surprised to step into a beach that is decked with charcoal, white, and red-hot pebbles.",
+        "image": "image/merakos_05_santorini-oia_1743x752.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Kyoto, Japan",
+        "date": "2024-07-20",
+        "description": "The City of a Thousand Temples, isn't just a catchy nickname but a testament to the Kioto's temples, shrines, and soul, steeped in centuries of spiritual tradition. Wander through towering vermilion gates, past serene gardens raked smooth by monks, and up to mountaintop shrines that whisper of ancient rituals.",
+        "image": "image/kyoto.webp"
+      },
+      {
+        "id": 3,
+        "name": "Taj Mahal, India",
+        "date": "2024-07-20",
+        "description": "The Taj Mahal is considered to be the greatest architectural achievement in the whole range of Indo-Islamic architecture. Its recognised architectonic beauty has a rhythmic combination of solids and voids, concave and convex and light shadow; such as arches and domes further increases the aesthetic aspect.",
+        "image": "image/taj-mahal-agra-india-TAJ0217-9eab8f20d11d4391901867ed1ce222b8.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Maui, Hawaii",
+        "date": "2024-08-05",
+        "description": "Maui, affectionately known as “The Valley Isle,” is the second largest of the Hawaiian Islands, celebrated for its stunning beaches, the sacred 'Īao Valley, and breathtaking views of migrating humpback whales in the winter.",
+        "image": "image/11479-Maui-Beaches.jpg"
+      }
+    ]
+  }
